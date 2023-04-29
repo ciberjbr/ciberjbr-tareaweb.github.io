@@ -36,6 +36,29 @@ header h2{
 	display:inline-block;
 }
 
+section {
+	
+	width: 60%;
+	padding: 0px;
+	margin: 0px;
+	border: 2px #0A4D68 solid;
+	display:inline-block;
+}
+
+section article {
+    
+    background-color: #1b95a5;
+	color: rgb(230, 254, 255);
+	font-size: 16px;
+	margin: 0px;
+	padding:  3%;
+    float:left;
+	display:inline-block;
+}
+
+section header{
+	background-color: #8be1f7;
+}
 
 nav ul{
 	height: 40px;
@@ -92,23 +115,3 @@ nav li a:hover{
 #compromisofin {
     border-bottom: 5px #0A4D68 solid;
 }
-
-
-
-
-
-/* probando v3*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* probando v4*/
