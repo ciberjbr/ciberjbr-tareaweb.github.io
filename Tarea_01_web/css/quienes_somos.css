@@ -46,7 +46,7 @@ section {
 }
 
 section article {
-    
+    width: 94%;
     background-color: #1b95a5;
 	color: rgb(230, 254, 255);
 	font-size: 16px;
