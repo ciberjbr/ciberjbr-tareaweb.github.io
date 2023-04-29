@@ -115,3 +115,147 @@ nav li a:hover{
 #compromisofin {
     border-bottom: 5px #0A4D68 solid;
 }
+
+/*Adaptación de ancho fijo de resoluciones de más de 1300px de ancho*/
+@media screen and (min-width: 1300px){
+	.contenedor{
+		width: 75%;
+		height: auto;
+	}
+	/*BARRA DE NAVEGACIÓN*/
+	nav{
+		width: 100%;
+	}
+	nav ul li{
+		font-size: 1.4vw;
+		margin: 0px 1%;
+		padding: 8px 0.8%;
+	}
+	/*CONTENIDO SECTION*/
+	section{
+		padding: 0px;
+		margin: 0.8%;
+		font-size: 24px;
+	}
+	section header{
+		padding: 0px;
+		margin: 0px;
+		border-bottom: 0px;
+	}
+	article{
+		padding: 3%;
+		height: auto;
+	}
+	
+}
+/*reponsive tablets*/
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+	.contenedor{
+		width: 100%;
+		height: auto;
+	}
+	/*CABECERA*/
+	body header{
+		padding: 15px 2%;
+	}
+	header img{
+		width: 20%;
+	}
+	header h1{
+		font-size: 5vw;
+	}
+	header h1{
+		font-size: 4vw;
+	}
+	/*BARRA DE NAVEGACIÓN*/
+	nav{
+		width: 100%;
+	}
+	nav ul li{
+		font-size: 2vw;
+		margin: 0px 0.5%;
+		padding: 8px 0.8%;
+	}
+	
+	/*CONTENIDO SECTION*/
+	section{
+		width: 65%;
+		padding: 0px;
+		margin: 0.6%;
+		border-radius: 8px;
+	}
+	section header{
+		padding: 0px;
+		margin: 0px;
+		border-bottom: 0px;
+	}
+	article{
+		padding: 3%;
+		height: auto;
+	}
+
+	
+	/*RESPONSIVE PARA MÓVILES*/
+@media screen and (max-width: 700px){
+	.contenedor{
+		width: 100%;
+		height: auto;
+	}
+	/*HEADER - CABECERA*/
+	body header{
+		padding: 8% 2% 25%;
+		width: auto;
+		height: auto;
+		margin: 0px;
+	}
+
+	header h1{
+		display: block;
+		font-size: 7vw;
+		text-align: center;
+		width: auto;
+		padding: 0px;
+		margin: 20px 25% 0px 0px;
+	}
+	/*BARRA DE NAVEGACIÓN*/
+nav{
+	width: auto;
+	background-color: #088395;
+	padding: 10px 0px;
+	border-bottom: 10px #0A4D68 solid;
+}
+nav ul{
+	
+	height: auto;
+	margin: auto;
+}
+nav ul li{
+	color: white;
+	font-size: 18px;
+	display: block;
+	background-color: #088395;
+	margin: 0 15px;
+	padding: 8px 2px;
+	border-bottom: 2px white solid;
+	border-top: 2px white solid;
+	text-align: center;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+nav ul li:hover{
+	background-color: #0A4D68;
+	color: #00FFCA;
+	border-bottom: 2px #0A4D68 solid;
+	border-top: 2px #0A4D68 solid;
+}
+nav ul li a:hover{
+	background-color: #0A4D68;
+	color: #00FFCA;
+}
+
+
+
+}
+}
