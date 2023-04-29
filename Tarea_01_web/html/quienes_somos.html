@@ -1,162 +1,117 @@
-<!DOCTYPE html>
-<html>
-<head> <!--probando-->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Quienes somos</title>
-    <link rel="stylesheet" href="../css/quienes_somos.css">
-</head>
+body{
+	background: rgb(10,77,104);
+	background: linear-gradient(90deg, rgba(10,77,104,1) 0%, rgba(10,77,104,1) 35%, rgba(5,191,219,1) 100%);
+	/*Realizado con esta página https://cssgradient.io/*/
+}
+.contenedor{
+	position: relative;
+	margin: 0 auto;
+	justify-content: center;
+	width: 1000px;
+	font-family: 'Trebuchet MS', sans-serif;
+	background-color: white;
+}
 
-<body>
-    <div class="contenedor">
-     <header>
-   
-        <img src="../images/logo.png" width="170px">
-        <h1>Cuidamos de ti </br>y de tu salud</h1>
-        <h2>Quienes somos</h2>
-     </header>
+
+body header{
+	background-color: white;
+	padding: 15px 20px;
+	border-bottom: 5px #0A4D68 solid;
+	font-size: 24px;
+	line-height: 40px;
+}
+header img{
+	width: 200px;
+}
+header h1{
+	color: #0A4D68;
+	text-align: right;
+	float: right;
+	text-shadow: 0px 1px 2px #333333;
+}
+header h2{
+    color: #0A4D68;
+    text-align: center;
+    text-shadow: 0px 1px 1px #333333;
+	display:inline-block;
+}
+
+section {
+	
+	width: 60%;
+	padding: 0px;
+	margin: 0px;
+	border: 2px #0A4D68 solid;
+	display:inline-block;
+}
+
+section article {
     
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li>Noticias</li>
-                <li><a href="quienes_somos.html">Quiénes somos</a></li>
-                <li>Publicaciones</li>
-                <li><a href="areas_actuacion.html">Áreas de actuación</a></li>
-                <li>Localización</li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+    background-color: #1b95a5;
+	color: rgb(230, 254, 255);
+	font-size: 16px;
+	margin: 0px;
+	padding:  3%;
+    float:left;
+	display:inline-block;
+}
 
-        
-        
-        <section>
-           
-            
-                <header>
-                <h3>Historia</h3>
-               </header>
-               <article>
-                 <p>En el año 1991, los hermanos Martin Pérez Hidalgo y Julio Cesar García decidieron invertir la herencia de su familia en cumplir el sueño que habían perseguido</p>
-                 <p>desde niño, montar un centro médico</p>
-                 <br/>
-                 <p>Como tenian un presupuesto no muy extenso, en los inicios el centro médico solo se encargaba del área de medicina general, pero actualmente con el gran éxito</p>
-                 <p>que está teniendo,el centro médico pudo ampliarse y actualmente tambien se imparten otras áreas, como Odontologia o Traumatología</p>
-               
-                </article>
-                
-            
-            
-            
-             
-            
-        </section>
-           
-             <section>
+section header{
+	background-color: #8be1f7;
+}
 
-                <header>
-                    <h3>Actualidad</h3>
-                </header>
-                <article>
-                    <p>Nuestro centro médico está formado por los mejores profesionales de todo el territorio nacional. Cada año, hacemos un casting a los recién titulados</p>
-                    <p>de cada universidad, y las personas que más destacan bajo nuestro riguroso criterio son seleccionadas para participar en unos cursos intensivos</p>
-                    <p>impartidos por eminencias del sector</p>
-            
-                </section>   
-            
+nav ul{
+	height: 40px;
+	background-color: #088395;
+	text-shadow: 0px 1px 2px #333333;
+	text-align: center;
+	margin: auto;
+}
+nav li{
+	color: white;
+	font-size: 18px;
+	display: inline;
+	background-color: #088395;
+	margin: 0 15px;
+	padding: 8px 2px;
+	border-bottom: 2px white solid;
+	border-top: 2px white solid;
+	text-align: center;
+	float: left;
+}
+nav li a{
+	color: white;
+	text-decoration: none;
+}
+nav li:hover{
+	background-color: #0A4D68;
+	color: #00FFCA;
+	border-bottom: 2px #0A4D68 solid;
+	border-top: 2px #0A4D68 solid;
+	/*transform:translate(0px, -13px);
+	-moz-transform:translate(0px, -13px);
+	-webkit-transform:translate(0px, -13px);
+	-o-transform:translate(0px, -13px);*/
+}
+nav li a:hover{
+	background-color: #0A4D68;
+	color: #00FFCA;
+	border-bottom: 2px #0A4D68 solid;
+	border-top: 2px #0A4D68 solid;
+}
 
-                
-            
-               
-                <section>
-
-                    <header>
-                        <h3>Compromiso con el talento Joven</h3>
-                      </header>
-                      
-                      <article>
-                         <p>Después del curso intensivo, los alumnos con mejores calificaciones entran directamente a una bolsa de trabajo de nuestro centro médico </p>
-                         <p>y sus distintas sucursales distribuidas por todo el territorio nacional, optando a una plaza fija si demuestran su talento </p>
-                          </article>
-
-                </section>
-
-               
-
-                <p id="compromisofin">Dependiendo del área,los cursos son impartidos por diferentes profesionales,cada uno especializado en una rama de nuestro centro médico.</p>
-                
-
-           
-                
-            </article>
-
-
-            <section id="fondo_cursos">
-
-                
-                    <h2>Cursos impartidos</h2>
-        
-                    <br>
-        
-                        
-                        
-                        <img id="odontosalemal" src="../images/odontojuanv2.png "class="imagenodo"> 
-                        <footer><!--Pie del artículo con el autor por ejemplo-->
-                            <p>Odontología: Dr.Anaya</p>
-                           </footer>
-                           <br>
-                    <img src="../images/medicinageneraljuan.png "class="imagenodo"> 
-                    
-                    <footer><!--Pie del artículo con el autor por ejemplo-->
-                     <p>Medicina General: Dr.Uribe</p>
-                    </footer>
-                    <br>
-                    <img src="../images/traumajuan.png "class="imagenodo"> 
-                    
-                    <footer><!--Pie del artículo con el autor por ejemplo-->
-                     <p>Traumatología: Dra.Castejón</p>
-                    </footer>
-                    <br>
-                    <img src="../images/fisiojuan.png "class="imagenodo"> 
-                   
-                    <footer><!--Pie del artículo con el autor por ejemplo-->
-                     <p>Fisioterápia: Dr.Brians</p>
-                    </footer>
-                    <br>
-                       
-
-            </section>
-            
-            
-           
-
-            
-            <footer><!--pie de pagina con contacto-->
-                <p>Copyright</p>
-                <a href="ciberjbr@gmail.com"><img src="../images/sobre.png" width="20px"></a>
-         </footer>
-               
-        
-        
-        
+.imagenodo{
+    width:30%;
+	padding-right: 10px;
+	float: left;
     
-     
+}
 
+#fondo_cursos{
+    background-color: #95e5f1;
 
+}
 
-   
-            </div>
-</body>
-</html>
-
-<!-- probando v3  --> 
-
-
-
-
-
-
-
-
-
-<!-- probando v4 --> 
+#compromisofin {
+    border-bottom: 5px #0A4D68 solid;
+}
